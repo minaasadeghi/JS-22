@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1f2632;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    background: #323a49;
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+.advice-number {
+    color: #53ffaa;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#wisdom {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.fancy-line {
+    width: 100%;
+    margin: 15px 0;
+}
+
+button {
+    background: #53ffaa;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0px 0px 20px #53ffaa;
+}
+
+button img {
+    width: 25px;
+}
